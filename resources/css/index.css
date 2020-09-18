@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* Utiliy Classes */
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4) ;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px rgba(0, 0, 0, 0.4) ;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px rgba(0, 0, 0, 0.4) ;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+section {
+    margin: 0 0 100px 0;
+}
+
+/* Nav section */
+
+.navbar-brand img {
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin: 0 18px 0 0;
+    color: black;
+}
+.nav-item:hover {
+    color: #71A894;
+}
+
+.btn-request {
+    background-color: #71A894;
+    color: white;
+    border-radius: 10px;
+}
+
+.members {
+    padding-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20rem;
+    box-shadow:  15px 15px #71A894;
+}
