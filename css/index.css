@@ -45,6 +45,20 @@ section {
     padding-left: 30px;
     border: 2px solid black;
     border-radius: 10px;
-    width: 20rem;
     box-shadow:  15px 15px #71A894;
+}
+
+.member {
+    padding-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:  0 10px #71A894;
+}
+
+.alex {
+    border: 2px solid #71A894;
+}
+
+.card {
+    margin-top: 20px;
 }
